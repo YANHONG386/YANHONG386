@@ -41,13 +41,6 @@
 
 ---
 
-## 📊 GitHub 统计 / GitHub Stats
-
-<img src="https://github-readme-stats.vercel.app/api?username=YANHONG386&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YANHONG386&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
-
----
-
 ⭐ 感谢您的访问！/ Thanks for visiting!
 
 📌 有想法或合作？欢迎通过上方链接联系我 / Feel free to reach out via the links above!
