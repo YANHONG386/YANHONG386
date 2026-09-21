@@ -1,33 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
   <title id="title">YANHONG386 personal blog</title>
-  <desc id="desc">Visit yhong386.com for full-stack development, AI exploration, anime, and gaming notes.</desc>
+  <desc id="desc">Personal blog about full-stack development, AI, anime and games at yhong386.com.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1732"/><stop offset=".56" stop-color="#18224b"/><stop offset="1" stop-color="#311b50"/></linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#58e0ff"/><stop offset=".52" stop-color="#927dff"/><stop offset="1" stop-color="#f178ba"/></linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#82ddff" stroke-opacity=".09"/><animateTransform attributeName="patternTransform" type="translate" from="0 0" to="64 32" dur="16s" repeatCount="indefinite"/></pattern>
-    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <clipPath id="clip"><rect width="1200" height="210" rx="18"/></clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f3faff"/><stop offset=".55" stop-color="#f7f4ff"/><stop offset="1" stop-color="#fff3f8"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#5fc9e7"/><stop offset=".53" stop-color="#9381e5"/><stop offset="1" stop-color="#e47cac"/></linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="clip"><rect width="1200" height="220" rx="18"/></clipPath>
   </defs>
-  <g clip-path="url(#clip)">
-    <rect width="1200" height="210" fill="url(#bg)"/>
-    <rect width="1200" height="210" fill="url(#grid)"/>
-    <circle cx="1090" cy="-25" r="180" fill="#ec70b6" fill-opacity=".11"><animate attributeName="cx" values="1090;1010;1090" dur="10s" repeatCount="indefinite"/></circle>
-    <circle cx="80" cy="235" r="160" fill="#4ddcff" fill-opacity=".10"><animate attributeName="cy" values="235;185;235" dur="9s" repeatCount="indefinite"/></circle>
-    <rect x="0" y="0" width="5" height="210" fill="url(#accent)"/>
-    <g font-family="Inter,Segoe UI,Noto Sans SC,Microsoft YaHei,sans-serif">
-      <circle cx="54" cy="43" r="5" fill="#5ce2d1" filter="url(#glow)"><animate attributeName="opacity" values="1;.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
-      <text x="72" y="48" fill="#70e5ff" font-family="Consolas,monospace" font-size="13" font-weight="700" letter-spacing="2.5">PERSONAL BLOG // ONLINE</text>
-      <text x="48" y="100" fill="#f5f7ff" font-size="34" font-weight="800">YHONG386.COM</text>
-      <text x="48" y="137" fill="#d0d9fa" font-size="18" font-weight="600">记录全栈开发、AI 探索，以及二次元与游戏生活</text>
-      <g font-family="Consolas,monospace" font-size="12" font-weight="700">
-        <text x="48" y="177" fill="#7fdff7">FULL-STACK</text><text x="157" y="177" fill="#9e8bf4">AI NOTES</text><text x="247" y="177" fill="#ef85bd">ANIME</text><text x="313" y="177" fill="#7fdff7">GAMES</text>
-      </g>
-      <g transform="translate(918 70)">
-        <rect width="224" height="70" rx="10" fill="#182343" fill-opacity=".82" stroke="#65ddff" stroke-opacity=".42"><animate attributeName="stroke" values="#65ddff;#ef78ba;#65ddff" dur="3.8s" repeatCount="indefinite"/></rect>
-        <text x="112" y="43" fill="#ecf5ff" text-anchor="middle" font-family="Consolas,monospace" font-size="15" font-weight="700">VISIT BLOG  →</text>
-      </g>
+  <g clip-path="url(#clip)" font-family="Inter,Segoe UI,Noto Sans SC,Microsoft YaHei,sans-serif">
+    <rect width="1200" height="220" fill="url(#bg)"/>
+    <circle cx="1090" cy="12" r="150" fill="#9b84e6" fill-opacity=".07"><animate attributeName="cx" values="1090;1040;1090" dur="10s" repeatCount="indefinite"/></circle>
+    <text x="1052" y="132" fill="#806bc4" fill-opacity=".07" text-anchor="middle" font-size="200" font-weight="900">Y</text>
+    <text x="48" y="46" fill="#806bc4" font-family="Consolas,monospace" font-size="11" font-weight="700" letter-spacing="2.4">PERSONAL BLOG / NOTES</text>
+    <text x="48" y="94" fill="#20263a" font-size="35" font-weight="800">yhong386.com</text>
+    <text x="48" y="127" fill="#5d6576" font-size="17">记录全栈开发实践、AI 探索笔记，以及二次元与游戏生活</text>
+    <g font-family="Consolas,monospace" font-size="10" font-weight="700" fill="#6b6383">
+      <g transform="translate(48 151)"><rect width="46" height="26" rx="5" fill="#fff" stroke="#dcdeea"/><text x="23" y="17" text-anchor="middle">DEV</text></g>
+      <g transform="translate(102 151)"><rect width="38" height="26" rx="5" fill="#fff" stroke="#dcdeea"/><text x="19" y="17" text-anchor="middle">AI</text></g>
+      <g transform="translate(148 151)"><rect width="62" height="26" rx="5" fill="#fff" stroke="#dcdeea"/><text x="31" y="17" text-anchor="middle">ANIME</text></g>
+      <g transform="translate(218 151)"><rect width="58" height="26" rx="5" fill="#fff" stroke="#dcdeea"/><text x="29" y="17" text-anchor="middle">GAMES</text></g>
     </g>
-    <rect x="-220" y="197" width="220" height="3" fill="url(#accent)" filter="url(#glow)"><animate attributeName="x" values="-220;1200" dur="4.8s" repeatCount="indefinite"/></rect>
+    <g transform="translate(923 139)">
+      <rect width="224" height="48" rx="8" fill="#111831"/>
+      <text x="112" y="30" fill="#fff" text-anchor="middle" font-family="Consolas,monospace" font-size="12" font-weight="700" letter-spacing="1">VISIT BLOG  ↗</text>
+    </g>
+    <rect x="-260" y="217" width="260" height="3" fill="url(#accent)" filter="url(#glow)"><animate attributeName="x" values="-260;1200" dur="5.6s" repeatCount="indefinite"/></rect>
   </g>
-  <rect x="1" y="1" width="1198" height="208" rx="17" fill="none" stroke="#72dfff" stroke-opacity=".20" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="218" rx="17" fill="none" stroke="#dce1ee" stroke-width="2"/>
 </svg>

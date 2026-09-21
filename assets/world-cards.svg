@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="title desc">
+  <title id="title">YANHONG386 interests</title>
+  <desc id="desc">Full-stack development, AI and automation, anime and games.</desc>
+  <defs>
+    <linearGradient id="c1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f1fbff"/></linearGradient>
+    <linearGradient id="c2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f6f3ff"/></linearGradient>
+    <linearGradient id="c3" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#fff3f8"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-15%" width="120%" height="135%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#485271" flood-opacity=".08"/></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <g font-family="Inter,Segoe UI,Noto Sans SC,Microsoft YaHei,sans-serif" filter="url(#shadow)">
+    <g>
+      <rect x="6" y="8" width="380" height="208" rx="15" fill="url(#c1)" stroke="#dde5eb"/>
+      <rect x="6" y="8" width="4" height="208" rx="2" fill="#66cde9"/>
+      <rect x="30" y="34" width="46" height="46" rx="11" fill="#e6f8fd"/>
+      <text x="53" y="63" fill="#3aa8c8" text-anchor="middle" font-family="Consolas,monospace" font-size="19" font-weight="800">&lt;/&gt;</text>
+      <text x="30" y="115" fill="#202632" font-size="21" font-weight="750">Full-stack</text>
+      <text x="30" y="147" fill="#68717d" font-size="14">Java / Spring · Vue / React</text>
+      <text x="30" y="174" fill="#68717d" font-size="14">从服务到界面，完整构建产品体验。</text>
+    </g>
+    <g>
+      <rect x="410" y="8" width="380" height="208" rx="15" fill="url(#c2)" stroke="#e2dff0"/>
+      <rect x="410" y="8" width="4" height="208" rx="2" fill="#9885ed"/>
+      <rect x="434" y="34" width="46" height="46" rx="11" fill="#f0ecff"/>
+      <text x="457" y="64" fill="#8069dd" text-anchor="middle" font-size="23" font-weight="800" filter="url(#glow)">✦</text>
+      <text x="434" y="115" fill="#202632" font-size="21" font-weight="750">AI &amp; Automation</text>
+      <text x="434" y="147" fill="#68717d" font-size="14">Agent · Prompt · Workflow</text>
+      <text x="434" y="174" fill="#68717d" font-size="14">探索智能体与有趣的自动化实践。</text>
+    </g>
+    <g>
+      <rect x="814" y="8" width="380" height="208" rx="15" fill="url(#c3)" stroke="#eddde6"/>
+      <rect x="814" y="8" width="4" height="208" rx="2" fill="#e77fad"/>
+      <rect x="838" y="34" width="46" height="46" rx="11" fill="#fdeaf3"/>
+      <text x="861" y="63" fill="#ce5f91" text-anchor="middle" font-family="Consolas,monospace" font-size="17" font-weight="800">PLAY</text>
+      <text x="838" y="115" fill="#202632" font-size="21" font-weight="750">Anime &amp; Games</text>
+      <text x="838" y="147" fill="#68717d" font-size="14">OTAKU · HARDCORE GAMER</text>
+      <text x="838" y="174" fill="#68717d" font-size="14">认真体验每一个动画与游戏世界。</text>
+    </g>
+  </g>
+  <circle cx="373" cy="27" r="3" fill="#66cde9"><animate attributeName="opacity" values=".25;1;.25" dur="3s" repeatCount="indefinite"/></circle>
+  <circle cx="777" cy="27" r="3" fill="#9885ed"><animate attributeName="opacity" values=".25;1;.25" dur="3.4s" repeatCount="indefinite"/></circle>
+  <circle cx="1181" cy="27" r="3" fill="#e77fad"><animate attributeName="opacity" values=".25;1;.25" dur="3.8s" repeatCount="indefinite"/></circle>
+</svg>
