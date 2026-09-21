@@ -1,51 +1,98 @@
-<!-- 顶部渐变波浪横幅 -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=4D6BFE,7C3AED&height=160&section=header&text=YANHONG386&fontSize=40&fontColor=ffffff&animation=fadeIn" width="100%" />
-
 <div align="center">
 
-# 👋 你好，欢迎来到我的主页 / Hi, welcome to my profile!
+<img src="./assets/profile-hero.svg" width="100%" alt="YANHONG386 - Full-stack developer, anime enthusiast and hardcore gamer" />
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&duration=3200&pause=900&color=4D6BFE&center=true&vCenter=true&width=760&height=70&lines=%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88+%7C+Backend+Developer;Java+%26+Spring+%E6%8A%80%E6%9C%AF%E6%A0%88%E7%88%B1%E5%A5%BD%E8%80%85+%7C+Java+%26+Spring+Stack;AI+Agent+%26+Prompt+Engineering+%E6%8E%A2%E7%B4%A2%E8%80%85;%E5%BC%80%E6%BA%90%E7%88%B1%E5%A5%BD%E8%80%85+%7C+Open+Source+Enthusiast" alt="Typing SVG" />
-
-[![Profile Views](https://komarev.com/ghpvc/?username=YANHONG386&color=4D6BFE&style=flat-square&label=Profile+Views)](https://github.com/YANHONG386)
-
----
-
-## 🤝 社交链接 / Connect with Me
-
-[![Blog](https://img.shields.io/badge/Blog-yhong386.com-4D6BFE?style=for-the-badge&logo=blogger&logoColor=white)](https://yhong386.com)
-[![Email](https://img.shields.io/badge/Email-zhazhiji4%40163.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zhazhiji4@163.com)
-[![Steam](https://img.shields.io/badge/Steam-yhong386-1B2838?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/id/yhong386/)
-[![Bilibili](https://img.shields.io/badge/Bilibili-346740691-00A1D6?style=for-the-badge&logo=bilibili&logoColor=white)](https://space.bilibili.com/346740691)
-[![QQ](https://img.shields.io/badge/QQ-2901394478-12B7F5?style=for-the-badge&logo=tencentqq&logoColor=white)](https://qm.qq.com/q/2901394478)
-[![GitHub](https://img.shields.io/badge/GitHub-YANHONG386-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YANHONG386)
-
----
-
-## 🛠️ 技术栈 / Tech Stack
-
-<img src="https://skillicons.dev/icons?i=java,spring,python,javascript,vue,react,mysql,redis,docker,maven,linux,git&theme=dark&perline=12" alt="Tech Stack" />
-
-<br />
-
-[![Windows 10](https://img.shields.io/badge/Windows_10-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
-[![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)](https://www.rabbitmq.com/)
-[![MyBatis](https://img.shields.io/badge/MyBatis-A020F0?style=for-the-badge)](https://mybatis.org/)
-[![DeepSeek](https://img.shields.io/badge/DeepSeek-4D6BFE?style=for-the-badge&logo=deepseek&logoColor=white)](https://www.deepseek.com/)
-[![OpenAI GPT](https://img.shields.io/badge/OpenAI_GPT-412991?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/)
-[![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)](https://www.anthropic.com/claude)
-[![Codex](https://img.shields.io/badge/Codex-10A37F?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/codex/)
-[![Dify](https://img.shields.io/badge/Dify-FF4F00?style=for-the-badge&logo=dify&logoColor=white)](https://dify.ai/)
-[![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-8B5CF6?style=for-the-badge)](https://www.promptingguide.ai/)
-[![AI Agent](https://img.shields.io/badge/AI_Agent-4D6BFE?style=for-the-badge)](https://en.wikipedia.org/wiki/Intelligent_agent)
-
----
-
-⭐ 感谢您的访问！/ Thanks for visiting!
-
-📌 有想法或合作？欢迎通过上方链接联系我 / Feel free to reach out via the links above!
+[![Profile Views](https://komarev.com/ghpvc/?username=YANHONG386&color=8B5CF6&style=flat-square&label=PROFILE+VIEWS)](https://github.com/YANHONG386)
 
 </div>
 
-<!-- 底部渐变波浪横幅 -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=4D6BFE,7C3AED&height=120&section=footer" width="100%" />
+## 👋 关于我 / About Me
+
+<table>
+<tr>
+<td width="64%" valign="top">
+
+你好，我是 **YANHONG386**，目前从事全栈开发工作，关注工程质量与产品体验。
+
+使用 **Java / Spring** 构建后端服务，也使用 **Vue / React** 完成前端体验；同时探索 **AI Agent、Prompt Engineering** 与自动化工作流。
+
+</td>
+<td width="36%" valign="top">
+
+`WORKING`　全栈开发工程师<br />
+`OTAKU`　　重度二次元<br />
+`GAMING`　 深度游戏玩家
+
+</td>
+</tr>
+</table>
+
+## 🌸 我的小世界 / My World
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 💻 Full-stack
+
+Java / Spring、Vue / React，从服务到界面完整实现。
+
+</td>
+<td width="33%" valign="top">
+
+### ✦ AI
+
+AI Agent、提示词工程，还有各种有趣的自动化尝试。
+
+</td>
+<td width="34%" valign="top">
+
+### 🎮 Anime & Games
+
+重度二次元与深度游戏玩家，认真体验每一个幻想世界。
+
+</td>
+</tr>
+</table>
+
+## 🌐 个人博客 / Personal Blog
+
+我的个人博客 **[yhong386.com](https://yhong386.com)**，用于记录全栈开发实践、AI 探索笔记，以及二次元与游戏生活。
+
+<a href="https://yhong386.com">
+  <img src="./assets/blog-card.svg" width="100%" alt="访问 YANHONG386 的个人博客 yhong386.com" />
+</a>
+
+<div align="center">
+
+## 🤝 社交链接 / Connect with Me
+
+[![Blog](https://img.shields.io/badge/Blog-yhong386.com-6F86ED?style=for-the-badge&logo=blogger&logoColor=white)](https://yhong386.com)
+[![Email](https://img.shields.io/badge/Email-zhazhiji4%40163.com-ED7076?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zhazhiji4@163.com)
+[![Steam](https://img.shields.io/badge/Steam-yhong386-24354C?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/id/yhong386/)
+[![Bilibili](https://img.shields.io/badge/Bilibili-346740691-56C9E9?style=for-the-badge&logo=bilibili&logoColor=white)](https://space.bilibili.com/346740691)
+[![QQ](https://img.shields.io/badge/QQ-2901394478-71BFF1?style=for-the-badge&logo=tencentqq&logoColor=white)](https://qm.qq.com/q/2901394478)
+[![GitHub](https://img.shields.io/badge/GitHub-YANHONG386-24292F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YANHONG386)
+
+## 🛠️ 技术栈 / Tech Stack
+
+<img src="https://skillicons.dev/icons?i=java,spring,python,javascript,vue,react,mysql,redis,docker,maven,linux,git&theme=dark&perline=12" alt="Java, Spring, Python, JavaScript, Vue, React, MySQL, Redis, Docker, Maven, Linux and Git" />
+
+<br />
+
+[![Windows 10](https://img.shields.io/badge/Windows_10-168BD2?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
+[![RabbitMQ](https://img.shields.io/badge/RabbitMQ-F38B3C?style=for-the-badge&logo=rabbitmq&logoColor=white)](https://www.rabbitmq.com/)
+[![MyBatis](https://img.shields.io/badge/MyBatis-AC62D5?style=for-the-badge)](https://mybatis.org/)
+[![DeepSeek](https://img.shields.io/badge/DeepSeek-5E7FF1?style=for-the-badge&logo=deepseek&logoColor=white)](https://www.deepseek.com/)
+[![OpenAI GPT](https://img.shields.io/badge/OpenAI_GPT-6C61AD?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/)
+[![Claude Code](https://img.shields.io/badge/Claude_Code-D98A73?style=for-the-badge&logo=anthropic&logoColor=white)](https://www.anthropic.com/claude)
+[![Codex](https://img.shields.io/badge/Codex-35A981?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/codex/)
+[![Dify](https://img.shields.io/badge/Dify-F17B52?style=for-the-badge&logo=dify&logoColor=white)](https://dify.ai/)
+[![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-A77AE4?style=for-the-badge)](https://www.promptingguide.ai/)
+[![AI Agent](https://img.shields.io/badge/AI_Agent-7288ED?style=for-the-badge)](https://en.wikipedia.org/wiki/Intelligent_agent)
+
+<br />
+
+> **「在代码、动画与游戏之间，构建属于自己的世界。」** ✦
+
+</div>
