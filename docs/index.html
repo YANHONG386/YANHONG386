@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="YANHONG386 的 GitHub 首页设计原型：全栈开发、AI 探索、二次元与游戏。">
+  <meta name="color-scheme" content="light dark">
+  <title>YHONG_386 · GitHub 首页设计原型</title>
+  <link rel="icon" href="redesign-assets/avatar.png">
+  <link rel="stylesheet" href="redesign-v3.css?v=3.4">
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"><span></span></div>
+  <svg class="icon-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+    <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M12 .9A11.1 11.1 0 0 0 8.5 22.5c.6.1.8-.3.8-.6v-2.1c-3.4.7-4.1-1.4-4.1-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.7 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-6a4.7 4.7 0 0 1 1.2-3.2c-.1-.3-.5-1.6.1-3.3 0 0 1-.3 3.4 1.3a11.8 11.8 0 0 1 6.2 0c2.3-1.6 3.4-1.3 3.4-1.3.6 1.7.2 3 .1 3.3a4.7 4.7 0 0 1 1.2 3.2c0 4.7-2.8 5.7-5.5 6 .5.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A11.1 11.1 0 0 0 12 .9Z"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M12 5v15M12 5C8 2 3 4 3 4v15s5-2 9 1c4-3 9-1 9-1V4s-5-2-9 1Z"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><path d="m8 6-6 6 6 6m8-12 6 6-6 6M14 3l-4 18"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5ZM20 2v4m-2-2h4"/></symbol>
+    <symbol id="i-game" viewBox="0 0 24 24"><path d="M7 7h10c2 0 3 2 3.5 4l1.5 6c.5 3-2 4-4 2l-3-3H9l-3 3c-2 2-4.5 1-4-2L3.5 11C4 9 5 7 7 7ZM7 10v5m-2.5-2.5h5M16 11h.1m2 3h.1"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m3 6 9 7 9-7"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 0 1 14 0Z"/><circle cx="12" cy="10" r="2"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 15A9 9 0 0 1 9 4a9 9 0 1 0 11 11Z"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3 2.8 5.8 6.4.9-4.6 4.5 1.1 6.4-5.7-3-5.7 3 1.1-6.4-4.6-4.5 6.4-.9Z"/></symbol>
+    <symbol id="i-tv" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="15" rx="4"/><path d="m7 2 5 4 5-4M8 11v4m8-4v4"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11a9 9 0 0 1-9 9c-2 0-3-.5-4-1l-5 2 1.5-5A9 9 0 1 1 21 11Z"/><path d="M8 11h.1m4 0h.1m4 0h.1"/></symbol>
+  </defs></svg>
+
+  <header class="github-header">
+    <a class="github-home" href="https://github.com" aria-label="GitHub"><svg class="icon"><use href="#i-github"/></svg></a>
+    <span class="header-name">YANHONG386</span>
+    <span class="prototype-label">PROFILE DESIGN <span>03</span></span>
+    <a class="header-link" href="https://github.com/YANHONG386">查看 GitHub <svg class="icon"><use href="#i-arrow"/></svg></a>
+    <button class="theme-toggle" type="button" aria-label="切换深色模式" aria-pressed="false" title="切换明暗主题"><svg class="icon"><use href="#i-moon"/></svg></button>
+  </header>
+
+  <nav class="github-tabs" aria-label="GitHub 个人主页导航"><div class="tabs-inner">
+    <a class="tab active" href="redesign.html" aria-current="page"><svg class="icon"><use href="#i-book"/></svg>Overview</a>
+    <a class="tab" href="https://github.com/YANHONG386?tab=repositories"><svg class="icon"><use href="#i-code"/></svg>Repositories <span class="count">9</span></a>
+    <a class="tab" href="https://github.com/YANHONG386?tab=projects">Projects</a>
+    <a class="tab" href="https://github.com/YANHONG386?tab=stars"><svg class="icon"><use href="#i-star"/></svg>Stars</a>
+  </div></nav>
+
+  <main class="github-layout">
+    <aside class="sidebar" aria-label="个人资料">
+      <div class="avatar-wrap"><img class="avatar" src="redesign-assets/avatar.png" alt="YHONG_386 的 GitHub 头像" width="256" height="256"><span class="avatar-status" title="代码与游戏">🎮</span></div>
+      <div class="identity"><h1>YHONG_386</h1><p>YANHONG386</p></div>
+      <a class="follow-button" href="https://github.com/YANHONG386">View GitHub profile <svg class="icon"><use href="#i-arrow"/></svg></a>
+      <div class="sidebar-meta"><p><svg class="icon"><use href="#i-pin"/></svg>china,canton</p><a href="https://yhong386.com"><svg class="icon"><use href="#i-globe"/></svg>yhong386.com</a><a href="mailto:zhazhiji4@163.com"><svg class="icon"><use href="#i-mail"/></svg>zhazhiji4@163.com</a></div>
+      <div class="sidebar-note"><span class="tiny-label">A LITTLE BIT OF ME</span><p>写代码，也探索幻想世界。</p><div><span>⌘ Developer</span><span>✧ Otaku</span><span>◈ Gamer</span></div></div>
+    </aside>
+
+    <div class="main-column">
+      <article class="readme" aria-label="GitHub README 设计原型">
+        <div class="readme-filename"><span><b>YANHONG386</b> / README.md</span><span class="file-type">PUBLIC PROFILE</span></div>
+        <div class="readme-content">
+          <section class="hero" aria-labelledby="hero-heading">
+            <div class="hero-scene"><img class="hero-art" src="redesign-assets/anime-cover.webp" width="1978" height="1280" alt="你提供的二次元素材：五位角色躺在温暖的浅色地面上"></div>
+            <div class="hero-atmosphere" aria-hidden="true"><span class="hero-aura aura-warm"></span><span class="hero-aura aura-cool"></span><span class="hero-glint"></span><span class="hero-pointer-glow"></span><div class="hero-sparkles"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+            <div class="hero-topline"><span class="cover-label"><span class="live-dot"></span>CODE. CREATE. PLAY.</span><button class="image-expand glass-button" type="button" aria-label="查看完整封面"><svg class="icon"><use href="#i-arrow"/></svg></button></div>
+            <div class="petals" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="hero-copy"><div class="hero-title-row"><div class="hero-identity"><div class="eyebrow">DEVELOPER BY DAY. DREAMER ALWAYS.</div><h2 id="hero-heading">YHONG<span class="hero-number">386</span><span class="name-period">.</span></h2><p class="hero-subtitle">全栈开发工程师 · 重度二次元 · 深度游戏玩家</p></div><a class="hero-blog-button" href="https://yhong386.com">我的博客 <svg class="icon"><use href="#i-arrow"/></svg></a></div><div class="hero-tags"><span>FULL-STACK DEV</span><span>AI EXPLORER</span><span>OTAKU / GAMER</span></div></div>
+          </section>
+          <div class="profile-controls"><nav class="section-nav" aria-label="页面内容导航"><a class="selected" href="#about-heading">关于我</a><a href="#world-heading">我的世界</a><a href="#blog-heading">博客</a><a href="#stack-heading">技术栈</a><a href="#connect-heading">联系</a></nav><button class="motion-toggle" type="button" aria-label="关闭动态效果" aria-pressed="true"><span class="motion-indicator"></span>动态<span class="switch-track"><i></i></span></button></div>
+
+          <section class="about-section" aria-labelledby="about-heading">
+            <div class="section-heading"><span class="section-number">01 /</span><h2 id="about-heading">关于我<span>ABOUT ME</span></h2><span class="section-rule"></span></div>
+            <div class="about-bento">
+              <div class="about-intro flow-card"><div class="intro-top"><span class="tiny-label">A LITTLE BIT OF ME</span><span class="intro-star" aria-hidden="true">✳</span></div><h3>写代码，也探索<br>每一个幻想世界<span>。</span></h3><div class="about-copy"><p>你好，我是 <strong>YANHONG386</strong>，目前从事全栈开发工作，关注工程质量与产品体验。</p><p>使用 <strong>Java / Spring</strong> 构建服务，也使用 <strong>Vue / React</strong> 完成前端体验；同时探索 <strong>AI Agent、Prompt Engineering</strong> 与自动化工作流。</p></div><div class="intro-signature"><span class="signature-mark">YHONG<span>386</span></span><span>BUILD SOMETHING. LOVE SOMETHING.</span></div></div>
+              <div class="identity-card"><div class="identity-top"><span class="tiny-label">ONE ME. THREE WORLDS.</span><span class="identity-orbit" aria-hidden="true"><i></i><i></i><i></i><b>✦</b></span></div><div class="identity-modes" role="group" aria-label="切换个人身份"><button class="active" type="button" data-mode="code" aria-pressed="true">开发</button><button type="button" data-mode="anime" aria-pressed="false">二次元</button><button type="button" data-mode="game" aria-pressed="false">游戏</button></div><div class="identity-screen"><div class="terminal-dots" aria-hidden="true"><i></i><i></i><i></i><span>profile.ts</span></div><div class="identity-code"><span>const <b>me</b> = {</span><span>&nbsp; name: <em>"YANHONG386"</em>,</span><span>&nbsp; role: <em class="mode-value">"Full-stack Dev"</em>,</span><span>&nbsp; loves: <em class="mode-love">"Build & Create"</em></span><span>};<i class="code-cursor" aria-hidden="true"></i></span></div></div><p class="mode-description" role="status" aria-live="polite">全栈开发，关注工程质量与产品体验。</p><div class="about-status"><div><span class="status-dot green"></span><span>WORK</span><b>全栈开发</b></div><div><span class="status-dot purple"></span><span>OTAKU</span><b>重度二次元</b></div><div><span class="status-dot orange"></span><span>GAMING</span><b>深度游戏玩家</b></div></div></div>
+            </div>
+            <div class="build-path" aria-label="开发与探索方向"><div><span class="path-icon"><svg class="icon"><use href="#i-code"/></svg></span><span><b>Backend</b><small>Java / Spring</small></span></div><span class="path-connector" aria-hidden="true"><i></i></span><div><span class="path-icon"><svg class="icon"><use href="#i-globe"/></svg></span><span><b>Frontend</b><small>Vue / React</small></span></div><span class="path-connector" aria-hidden="true"><i></i></span><div><span class="path-icon"><svg class="icon"><use href="#i-spark"/></svg></span><span><b>AI &amp; Automation</b><small>Agent / Workflow</small></span></div></div>
+          </section>
+
+          <section class="world-section" aria-labelledby="world-heading">
+            <div class="section-heading"><span class="section-number">02 /</span><h2 id="world-heading">我的世界<span>MY WORLD</span></h2><span class="section-rule"></span></div>
+            <div class="world-grid">
+              <button class="world-card code-card" type="button" data-world="code" aria-label="了解全栈开发"><div class="world-card-top"><span class="world-icon"><svg class="icon"><use href="#i-code"/></svg></span><span class="card-index">01</span></div><div class="world-visual code-visual" aria-hidden="true"><div class="mini-browser"><div><i></i><i></i><i></i><span>hello.world</span></div><span class="mini-code">&lt;<b>create</b> /&gt;</span><span class="mini-code-line"></span><span class="mini-code-line short"></span></div><span class="visual-float">{ }</span></div><h3>Full-stack<span>从服务到界面</span></h3><p>Java / Spring · Vue / React<br>完整构建产品体验。</p><div class="card-bottom"><span>BUILD WITH CARE</span><span>↗</span></div></button>
+              <button class="world-card ai-card" type="button" data-world="ai" aria-label="了解 AI 与自动化"><div class="world-card-top"><span class="world-icon"><svg class="icon"><use href="#i-spark"/></svg></span><span class="card-index">02</span></div><div class="world-visual ai-visual" aria-hidden="true"><span class="ai-orbit o1"></span><span class="ai-orbit o2"></span><span class="ai-core">✦</span><span class="ai-node n1"></span><span class="ai-node n2"></span><span class="ai-node n3"></span></div><h3>AI &amp; Automation<span>让想法自动运行</span></h3><p>Agent · Prompt · Workflow<br>探索智能体与自动化实践。</p><div class="card-bottom"><span>EXPLORE THE NEXT</span><span>↗</span></div></button>
+              <button class="world-card game-card" type="button" data-world="games" aria-label="了解二次元与游戏"><div class="world-card-top"><span class="world-icon"><svg class="icon"><use href="#i-game"/></svg></span><span class="card-index">03</span></div><div class="world-visual game-visual" aria-hidden="true"><img src="redesign-assets/anime-cover.webp" width="1978" height="1280" alt=""><span class="game-play"><svg class="icon"><use href="#i-game"/></svg></span><span class="play-label">ENTER ANOTHER WORLD ↗</span></div><h3>Anime &amp; Games<span>认真体验每一个世界</span></h3><p>OTAKU · HARDCORE GAMER<br>动画、游戏与我的幻想世界。</p><div class="card-bottom"><span>NEVER STOP PLAYING</span><span>↗</span></div></button>
+            </div>
+          </section>
+
+          <section class="blog-section" aria-labelledby="blog-heading">
+            <div class="section-heading"><span class="section-number">03 /</span><h2 id="blog-heading">个人博客<span>PERSONAL BLOG</span></h2><span class="section-rule"></span></div>
+            <a class="blog-card flow-card" href="https://yhong386.com"><div class="blog-orb orb-one" aria-hidden="true"></div><div class="blog-orb orb-two" aria-hidden="true"></div><div class="blog-grid" aria-hidden="true"></div><div class="blog-copy"><div class="tiny-label"><span class="live-dot"></span> PERSONAL BLOG / NOTES</div><h3>yhong386.com</h3><p>记录全栈开发实践、AI 探索笔记，<br>以及二次元与游戏生活。</p><div class="blog-tags"><span>DEV</span><span>AI</span><span>ANIME</span><span>GAMES</span></div></div><span class="blog-watermark" aria-hidden="true">Y</span><span class="blog-cta">VISIT BLOG <svg class="icon"><use href="#i-arrow"/></svg></span><span class="flow-line" aria-hidden="true"></span></a>
+          </section>
+
+          <section class="stack-section" aria-labelledby="stack-heading">
+            <div class="section-heading"><span class="section-number">04 /</span><h2 id="stack-heading">技术栈<span>MY TOOLKIT</span></h2><span class="section-rule"></span></div>
+            <div class="stack-panel flow-card"><div class="stack-top"><div><span class="tiny-label">GOOD TOOLS. BETTER IDEAS.</span><p>我的开发工具箱。</p></div><div class="stack-filters" role="group" aria-label="筛选技术栈"><button class="active" type="button" data-filter="all" aria-pressed="true">全部</button><button type="button" data-filter="backend" aria-pressed="false">后端</button><button type="button" data-filter="frontend" aria-pressed="false">前端</button><button type="button" data-filter="data" aria-pressed="false">数据</button><button type="button" data-filter="ops" aria-pressed="false">AI / OPS</button></div></div>
+              <div class="tech-dock" aria-label="技术图标"><button class="tech-item" type="button" data-categories="backend" data-tech="Java" data-description="Java / Spring 构建后端服务" aria-label="查看 Java" aria-pressed="false"><img src="redesign-assets/tech/java.svg" width="48" height="48" alt="Java 图标"><span>Java</span></button><button class="tech-item" type="button" data-categories="backend" data-tech="Spring" data-description="Java / Spring 构建后端服务" aria-label="查看 Spring" aria-pressed="false"><img src="redesign-assets/tech/spring.svg" width="48" height="48" alt="Spring 图标"><span>Spring</span></button><button class="tech-item" type="button" data-categories="backend ops" data-tech="Python" data-description="Python · 开发工具箱" aria-label="查看 Python" aria-pressed="false"><img src="redesign-assets/tech/python.svg" width="48" height="48" alt="Python 图标"><span>Python</span></button><button class="tech-item" type="button" data-categories="frontend" data-tech="JavaScript" data-description="JavaScript · 前端开发" aria-label="查看 JavaScript" aria-pressed="false"><img src="redesign-assets/tech/javascript.svg" width="48" height="48" alt="JavaScript 图标"><span>JavaScript</span></button><button class="tech-item" type="button" data-categories="frontend" data-tech="Vue" data-description="Vue / React 完成前端体验" aria-label="查看 Vue" aria-pressed="false"><img src="redesign-assets/tech/vue.svg" width="48" height="48" alt="Vue 图标"><span>Vue</span></button><button class="tech-item" type="button" data-categories="frontend" data-tech="React" data-description="Vue / React 完成前端体验" aria-label="查看 React" aria-pressed="false"><img src="redesign-assets/tech/react.svg" width="48" height="48" alt="React 图标"><span>React</span></button><button class="tech-item" type="button" data-categories="data" data-tech="MySQL" data-description="MySQL · 数据存储" aria-label="查看 MySQL" aria-pressed="false"><img src="redesign-assets/tech/mysql.svg" width="48" height="48" alt="MySQL 图标"><span>MySQL</span></button><button class="tech-item" type="button" data-categories="data" data-tech="Redis" data-description="Redis · 数据缓存" aria-label="查看 Redis" aria-pressed="false"><img src="redesign-assets/tech/redis.svg" width="48" height="48" alt="Redis 图标"><span>Redis</span></button><button class="tech-item" type="button" data-categories="ops" data-tech="Docker" data-description="Docker · AI / OPS" aria-label="查看 Docker" aria-pressed="false"><img src="redesign-assets/tech/docker.svg" width="48" height="48" alt="Docker 图标"><span>Docker</span></button><button class="tech-item" type="button" data-categories="backend ops" data-tech="Maven" data-description="Maven · 开发工具箱" aria-label="查看 Maven" aria-pressed="false"><img src="redesign-assets/tech/maven.svg" width="48" height="48" alt="Maven 图标"><span>Maven</span></button><button class="tech-item" type="button" data-categories="ops" data-tech="Linux" data-description="Linux · AI / OPS" aria-label="查看 Linux" aria-pressed="false"><img src="redesign-assets/tech/linux.svg" width="48" height="48" alt="Linux 图标"><span>Linux</span></button><button class="tech-item" type="button" data-categories="backend frontend ops" data-tech="Git" data-description="Git · 开发工具箱" aria-label="查看 Git" aria-pressed="false"><img src="redesign-assets/tech/git.svg" width="48" height="48" alt="Git 图标"><span>Git</span></button></div><p class="tech-detail" role="status" aria-live="polite">轻触图标，看看我的工具箱。<span>12 TOOLS / ALWAYS EXPLORING</span></p>
+              <div class="stack-lines"><div class="stack-line" data-group="backend"><b>BACKEND</b><span>Java · Spring · MyBatis</span></div><div class="stack-line" data-group="frontend"><b>FRONTEND</b><span>Vue · React · JavaScript</span></div><div class="stack-line" data-group="data"><b>DATA</b><span>MySQL · Redis · RabbitMQ</span></div><div class="stack-line" data-group="ops"><b>AI / OPS</b><span>Agent · Dify · Docker · Linux</span></div></div>
+            </div>
+          </section>
+
+          <section class="connect-section" aria-labelledby="connect-heading">
+            <div class="section-heading"><span class="section-number">05 /</span><h2 id="connect-heading">找到我<span>LET’S CONNECT</span></h2><span class="section-rule"></span></div>
+            <div class="connect-grid"><a href="https://yhong386.com"><span class="social-logo blog-logo"><img src="redesign-assets/social/blog.svg" width="28" height="28" alt="YHONG Blog Logo"></span><span>Blog<small>yhong386.com</small></span><svg class="icon arrow"><use href="#i-arrow"/></svg></a><a href="mailto:zhazhiji4@163.com"><span class="social-logo email-logo"><img src="redesign-assets/social/email.png" width="28" height="28" alt="网易邮箱 Logo"></span><span>Email<small>zhazhiji4@163.com</small></span><svg class="icon arrow"><use href="#i-arrow"/></svg></a><a href="https://steamcommunity.com/id/yhong386/"><span class="social-logo steam-logo"><img src="redesign-assets/social/steam.svg" width="28" height="28" alt="Steam Logo"></span><span>Steam<small>yhong386</small></span><svg class="icon arrow"><use href="#i-arrow"/></svg></a><a href="https://space.bilibili.com/346740691"><span class="social-logo bilibili-logo"><img src="redesign-assets/social/bilibili.svg" width="28" height="28" alt="Bilibili Logo"></span><span>Bilibili<small>346740691</small></span><svg class="icon arrow"><use href="#i-arrow"/></svg></a><a href="https://qm.qq.com/q/2901394478"><span class="social-logo qq-logo"><img src="redesign-assets/social/qq.png" width="28" height="28" alt="QQ Logo"></span><span>QQ<small>2901394478</small></span><svg class="icon arrow"><use href="#i-arrow"/></svg></a><a href="https://github.com/YANHONG386"><span class="social-logo github-logo"><img src="redesign-assets/social/github.svg" width="28" height="28" alt="GitHub Logo"></span><span>GitHub<small>YANHONG386</small></span><svg class="icon arrow"><use href="#i-arrow"/></svg></a></div>
+          </section>
+
+          <div class="copy-contact"><button class="copy-email" type="button"><svg class="icon"><use href="#i-mail"/></svg>复制邮箱<span>COPY</span></button><span class="copy-feedback" role="status" aria-live="polite">期待与你交流代码、动画和游戏。</span></div>
+          <footer class="profile-footer"><span class="footer-spark">✳</span><p>「在代码、动画与游戏之间，构建属于自己的世界。」</p><span>THANKS FOR STOPPING BY.</span><a class="profile-views" href="https://github.com/YANHONG386"><span>PROFILE VIEWS</span><b>YANHONG386 ↗</b></a></footer>
+        </div>
+      </article>
+      <section class="repositories" aria-labelledby="repo-heading"><h2 id="repo-heading">Popular repositories<a href="https://github.com/YANHONG386?tab=repositories">View all →</a></h2><div class="repo-grid"><a class="repo-card" href="https://github.com/YANHONG386/black-horse-ledger"><div><svg class="icon"><use href="#i-book"/></svg><strong>black-horse-ledger</strong><span>Public</span></div><p>Personal desktop accounting app</p><small><i class="language-dot ts"></i>TypeScript <svg class="icon"><use href="#i-star"/></svg> 1</small></a><a class="repo-card" href="https://github.com/YANHONG386/blog"><div><svg class="icon"><use href="#i-book"/></svg><strong>blog</strong><span>Public</span></div><p>个人博客搭建</p><small><i class="language-dot js"></i>JavaScript</small></a></div></section>
+    </div>
+  </main>
+  <footer class="page-footer"><svg class="icon"><use href="#i-github"/></svg><span>YANHONG386</span><span>GitHub Profile · Design Prototype 03</span></footer>
+  <button class="back-to-top" type="button" aria-label="回到顶部" hidden>↑</button>
+  <dialog class="art-dialog" aria-label="完整封面"><button class="dialog-close" type="button" aria-label="关闭完整封面">×</button><img src="redesign-assets/anime-cover.webp" width="1978" height="1280" alt="你提供的完整二次元封面素材"><p>在代码、动画与游戏之间，构建属于自己的世界。</p></dialog>
+  <dialog class="world-dialog" aria-labelledby="world-dialog-title"><button class="dialog-close" type="button" aria-label="关闭兴趣详情">×</button><span class="tiny-label">A LITTLE MORE ABOUT ME</span><h2 id="world-dialog-title"></h2><p class="world-dialog-copy"></p><a class="world-dialog-link" href="https://yhong386.com">到我的博客看看 <svg class="icon"><use href="#i-arrow"/></svg></a></dialog>
+  <script src="redesign-v3.js?v=3.4"></script>
+</body>
+</html>

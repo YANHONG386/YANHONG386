@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="390" viewBox="0 0 480 390" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">代码、动画与游戏的世界</title>
+  <desc id="desc">紫色轨道围绕着游戏手柄、代码窗口与星星，象征全栈开发、AI 探索和二次元与游戏兴趣。</desc>
+  <defs>
+    <linearGradient id="planet" x1="128" y1="72" x2="327" y2="315" gradientUnits="userSpaceOnUse"><stop stop-color="#e8dffd"/><stop offset="1" stop-color="#cbb8f4"/></linearGradient>
+    <linearGradient id="pad" x1="162" y1="180" x2="301" y2="278" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset="1" stop-color="#eeebfa"/></linearGradient>
+    <filter id="shadow" x="-40%" y="-50%" width="180%" height="220%"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#514077" flood-opacity=".13"/></filter>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#a48fc9" opacity=".25"/></pattern>
+  </defs>
+  <rect x="69" y="39" width="340" height="309" fill="url(#dots)"/>
+  <circle cx="240" cy="198" r="133" stroke="#ded5ee" stroke-dasharray="3 7"/>
+  <circle cx="240" cy="198" r="105" fill="url(#planet)"/>
+  <ellipse cx="240" cy="198" rx="178" ry="61" transform="rotate(-28 240 198)" stroke="#b09bcf" stroke-width="1.5"/>
+  <path d="M81 280C140 286 207 268 280 225C331 195 379 155 397 122" stroke="#7b5eaa" stroke-width="2"/>
+  <circle cx="86" cy="276" r="7" fill="#ee956d" stroke="#faf7f1" stroke-width="4"/>
+  <circle cx="385" cy="131" r="6" fill="#78639f" stroke="#faf7f1" stroke-width="3"/>
+  <g filter="url(#shadow)" transform="rotate(-9 234 218)">
+    <path d="M185 167C171 167 161 178 156 193L139 246C133 268 151 280 166 264L191 239H283L308 264C323 280 341 268 335 246L318 193C313 178 303 167 289 167Z" fill="url(#pad)" stroke="#8a729f" stroke-width="2"/>
+    <path d="M198 165L205 155H269L276 165" stroke="#8a729f" stroke-width="4" stroke-linecap="round"/>
+    <path d="M185 193V223M170 208H200" stroke="#696077" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="290" cy="196" r="6" fill="#f0a27f"/><circle cx="304" cy="210" r="6" fill="#bcabd9"/><circle cx="276" cy="210" r="6" fill="#b3caae"/><circle cx="290" cy="224" r="6" fill="#f0d491"/>
+    <circle cx="218" cy="225" r="12" fill="#d3cadf" stroke="#8a729f" stroke-width="1.5"/><circle cx="258" cy="225" r="12" fill="#d3cadf" stroke="#8a729f" stroke-width="1.5"/>
+    <path d="M230 191H243" stroke="#9e8cae" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#shadow)" transform="rotate(8 336 109)">
+    <rect x="284" y="62" width="126" height="88" rx="9" fill="#fffdf9" stroke="#d5cbdc"/>
+    <path d="M284 82H410" stroke="#e8e1eb"/><circle cx="296" cy="73" r="2.5" fill="#e99a7a"/><circle cx="306" cy="73" r="2.5" fill="#e7d091"/><circle cx="316" cy="73" r="2.5" fill="#a8c3a4"/>
+    <path d="M315 99L303 110L315 121M375 99L387 110L375 121M352 95L338 126" stroke="#9273b6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="rotate(-10 103 114)"><rect x="56" y="94" width="94" height="31" rx="15.5" fill="#fffdf9" stroke="#e4dad9"/><text x="103" y="114" text-anchor="middle" font-family="Consolas,monospace" font-size="10" font-weight="bold" fill="#947549">HELLO, WORLD!</text></g>
+  <g transform="rotate(7 344 293)"><rect x="292" y="278" width="105" height="31" rx="15.5" fill="#eee8f6" stroke="#d7cce8"/><text x="344" y="298" text-anchor="middle" font-family="Consolas,monospace" font-size="10" font-weight="bold" fill="#7d629d">PLAYER / 386</text></g>
+  <path d="M114 51L117 62L128 65L117 68L114 79L111 68L100 65L111 62Z" fill="#f0ab79"/>
+  <path d="M386 223L390 237L404 241L390 245L386 259L382 245L368 241L382 237Z" fill="#a994c9"/>
+  <path d="M185 310L188 319L197 322L188 325L185 334L182 325L173 322L182 319Z" fill="#c5acda"/>
+  <path d="M342 42V53M337 47.5H347M62 206V215M57.5 210.5H66.5" stroke="#ad9abe" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="263" cy="47" r="2.5" fill="#dab586"/><circle cx="424" cy="191" r="2" fill="#b49ec8"/><circle cx="138" cy="340" r="2" fill="#b49ec8"/>
+</svg>
