@@ -10,7 +10,7 @@
 
 **[打开完整交互主页 ↗](https://yanhong386.github.io/YANHONG386/)** · [个人博客](https://yhong386.com)
 
-[![Profile Views](https://komarev.com/ghpvc/?username=YANHONG386&color=9381E5&style=flat-square&label=PROFILE+VIEWS)](https://github.com/YANHONG386)
+<a href="https://github.com/YANHONG386"><img src="./assets/profile-v3/profile-link.svg" width="196" alt="GitHub · YANHONG386"></a>
 
 </div>
 
