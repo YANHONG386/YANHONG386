@@ -2,25 +2,19 @@
 
 <a href="https://yanhong386.github.io/YANHONG386/">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-v3/hero-dark.gif">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-v3/hero-light.gif">
-  <img src="./assets/profile-v3/hero-light.gif" width="100%" alt="YHONG386 · 全栈开发工程师 · 重度二次元 · 深度游戏玩家；动态二次元封面">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/readme-v4/hero-dark.webp">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/readme-v4/hero-light.webp">
+  <img src="./assets/readme-v4/hero-light.webp" width="100%" alt="YHONG386 · 全栈开发工程师 · 重度二次元 · 深度游戏玩家">
 </picture>
 </a>
 
-**[打开完整交互主页 ↗](https://yanhong386.github.io/YANHONG386/)** · [个人博客](https://yhong386.com)
+### [✦ 打开完整交互主页 ↗](https://yanhong386.github.io/YANHONG386/)
 
-<a href="https://github.com/YANHONG386"><img src="./assets/profile-v3/profile-link.svg" width="196" alt="GitHub · YANHONG386"></a>
+视差、动态、身份切换、技术筛选与复制邮箱，在完整交互主页中体验。
 
 </div>
 
 ## `01` 关于我 / About
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-v3/about-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-v3/about-light.png">
-  <img src="./assets/profile-v3/about-light.png" width="100%" alt="写代码，也探索每一个幻想世界。全栈开发 · AI 探索 · 二次元与游戏">
-</picture>
 
 你好，我是 **YANHONG386**，目前从事全栈开发工作，关注工程质量与产品体验。
 
@@ -28,23 +22,11 @@
 
 `WORK` 全栈开发　·　`OTAKU` 重度二次元　·　`GAMING` 深度游戏玩家
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-v3/path-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-v3/path-light.png">
-  <img src="./assets/profile-v3/path-light.png" width="100%" alt="Backend Java / Spring → Frontend Vue / React → AI & Automation Agent / Workflow">
-</picture>
-
 ## `02` 我的世界 / My World
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-v3/world-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-v3/world-light.png">
-  <img src="./assets/profile-v3/world-light.png" width="100%" alt="Full-stack development · AI & Automation · Anime & Games">
-</picture>
-
-**Full-stack** · Java / Spring、Vue / React，完整构建产品体验。<br />
-**AI & Automation** · Agent、Prompt、Workflow，探索智能体与自动化实践。<br />
-**Anime & Games** · 动画、游戏与我的幻想世界。
+- **Full-stack** · Java / Spring、Vue / React，完整构建产品体验。
+- **AI & Automation** · Agent、Prompt、Workflow，探索智能体与自动化实践。
+- **Anime & Games** · 动画、游戏与我的幻想世界。
 
 ## `03` 个人博客 / Blog
 
@@ -52,74 +34,63 @@
 
 <a href="https://yhong386.com">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-v3/blog-dark.gif">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-v3/blog-light.gif">
-  <img src="./assets/profile-v3/blog-light.gif" width="100%" alt="访问个人博客 yhong386.com；全栈开发实践、AI 探索笔记，以及二次元与游戏生活">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/readme-v4/blog-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/readme-v4/blog-light.svg">
+  <img src="./assets/readme-v4/blog-light.svg" width="100%" alt="访问个人博客 yhong386.com">
 </picture>
 </a>
 
 ## `04` 技术栈 / Stack
 
-<a href="https://yanhong386.github.io/YANHONG386/#stack-heading">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-v3/stack-dark.gif">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-v3/stack-light.gif">
-  <img src="./assets/profile-v3/stack-light.gif" width="100%" alt="Java · Spring · Python · JavaScript · Vue · React · MySQL · Redis · Docker · Maven · Linux · Git">
-</picture>
-</a>
+<p>
+<img src="./assets/readme-v4/tech/java.svg" width="44" height="44" alt="Java">
+<img src="./assets/readme-v4/tech/spring.svg" width="44" height="44" alt="Spring">
+<img src="./assets/readme-v4/tech/python.svg" width="44" height="44" alt="Python">
+<img src="./assets/readme-v4/tech/javascript.svg" width="44" height="44" alt="Javascript">
+<img src="./assets/readme-v4/tech/vue.svg" width="44" height="44" alt="Vue">
+<img src="./assets/readme-v4/tech/react.svg" width="44" height="44" alt="React">
+<img src="./assets/readme-v4/tech/mysql.svg" width="44" height="44" alt="Mysql">
+<img src="./assets/readme-v4/tech/redis.svg" width="44" height="44" alt="Redis">
+<img src="./assets/readme-v4/tech/docker.svg" width="44" height="44" alt="Docker">
+<img src="./assets/readme-v4/tech/maven.svg" width="44" height="44" alt="Maven">
+<img src="./assets/readme-v4/tech/linux.svg" width="44" height="44" alt="Linux">
+<img src="./assets/readme-v4/tech/git.svg" width="44" height="44" alt="Git">
+</p>
 
 **Java · Spring · Python · JavaScript · Vue · React · MySQL · Redis · Docker · Maven · Linux · Git**
 
 `BACKEND` Java · Spring · MyBatis　　`FRONTEND` Vue · React · JavaScript<br />
 `DATA` MySQL · Redis · RabbitMQ　　`AI / OPS` Agent · Dify · Docker · Linux
 
+[在完整主页中筛选与探索技术栈 ↗](https://yanhong386.github.io/YANHONG386/#stack-heading)
+
 ## `05` 找到我 / Connect
 
 <table>
 <tr>
-<td width="33%"><a href="https://yhong386.com"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-v3/contact-0-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-v3/contact-0-light.png">
-  <img src="./assets/profile-v3/contact-0-light.png" width="100%" alt="Blog · yhong386.com">
-</picture></a></td>
-<td width="33%"><a href="mailto:zhazhiji4@163.com"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-v3/contact-1-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-v3/contact-1-light.png">
-  <img src="./assets/profile-v3/contact-1-light.png" width="100%" alt="Email · zhazhiji4@163.com">
-</picture></a></td>
-<td width="33%"><a href="https://steamcommunity.com/id/yhong386/"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-v3/contact-2-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-v3/contact-2-light.png">
-  <img src="./assets/profile-v3/contact-2-light.png" width="100%" alt="Steam · yhong386">
-</picture></a></td>
+<td width="50%"><a href="https://yhong386.com"><img src="./assets/readme-v4/social/blog.svg" width="26" height="26" alt="Blog"> <strong>Blog</strong></a><br>yhong386.com</td>
+<td width="50%"><a href="mailto:zhazhiji4@163.com"><img src="./assets/readme-v4/social/email.png" width="26" height="26" alt="Email"> <strong>Email</strong></a><br>zhazhiji4@163.com</td>
 </tr>
 <tr>
-<td width="33%"><a href="https://space.bilibili.com/346740691"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-v3/contact-3-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-v3/contact-3-light.png">
-  <img src="./assets/profile-v3/contact-3-light.png" width="100%" alt="Bilibili · 346740691">
-</picture></a></td>
-<td width="33%"><a href="https://qm.qq.com/q/2901394478"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-v3/contact-4-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-v3/contact-4-light.png">
-  <img src="./assets/profile-v3/contact-4-light.png" width="100%" alt="QQ · 2901394478">
-</picture></a></td>
-<td width="33%"><a href="https://github.com/YANHONG386"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-v3/contact-5-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-v3/contact-5-light.png">
-  <img src="./assets/profile-v3/contact-5-light.png" width="100%" alt="GitHub · YANHONG386">
-</picture></a></td>
+<td width="50%"><a href="https://steamcommunity.com/id/yhong386/"><img src="./assets/readme-v4/social/steam.svg" width="26" height="26" alt="Steam"> <strong>Steam</strong></a><br>yhong386</td>
+<td width="50%"><a href="https://space.bilibili.com/346740691"><img src="./assets/readme-v4/social/bilibili.svg" width="26" height="26" alt="Bilibili"> <strong>Bilibili</strong></a><br>346740691</td>
+</tr>
+<tr>
+<td width="50%"><a href="https://qm.qq.com/q/2901394478"><img src="./assets/readme-v4/social/qq.png" width="26" height="26" alt="QQ"> <strong>QQ</strong></a><br>2901394478</td>
+<td width="50%"><a href="https://github.com/YANHONG386"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/readme-v4/social/github-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/readme-v4/social/github-light.svg">
+  <img src="./assets/readme-v4/social/github-light.svg" width="26" alt="GitHub">
+</picture> <strong>GitHub</strong></a><br>YANHONG386</td>
 </tr>
 </table>
 
+---
+
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-v3/footer-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-v3/footer-light.png">
-  <img src="./assets/profile-v3/footer-light.png" width="100%" alt="在代码、动画与游戏之间，构建属于自己的世界。">
-</picture>
-
 **「在代码、动画与游戏之间，构建属于自己的世界。」**
+
+[完整交互主页](https://yanhong386.github.io/YANHONG386/) · [个人博客](https://yhong386.com) · [GitHub](https://github.com/YANHONG386)
 
 </div>

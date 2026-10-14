@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200">
+<title>个人博客 yhong386.com</title><desc>全栈开发实践、AI 探索笔记，以及二次元与游戏生活。</desc>
+<defs><linearGradient id="bg"><stop stop-color="#222538"/><stop offset="1" stop-color="#30243b"/></linearGradient><linearGradient id="accent"><stop stop-color="#81cce8"/><stop offset=".5" stop-color="#b5a1e8"/><stop offset="1" stop-color="#efa4ba"/></linearGradient></defs>
+<rect x="1" y="1" width="1198" height="198" rx="22" fill="url(#bg)" stroke="#c9badc" stroke-opacity=".2"/>
+<path d="M790 15h190l-100 170h-65l100-170" fill="url(#accent)" opacity=".1"/>
+<g font-family="Segoe UI,Microsoft YaHei,sans-serif"><text x="40" y="44" font-size="14" letter-spacing="2" fill="#c9badc">PERSONAL BLOG / NOTES</text><text x="40" y="106" font-size="48" font-weight="700" fill="#f5edff">yhong386.com</text><text x="42" y="152" font-size="22" fill="#c9badc">全栈开发实践 · AI 探索 · 二次元与游戏</text></g>
+<path d="M1095 128l43-43m-43 0h43v43" fill="none" stroke="#c9badc" stroke-width="4" stroke-linecap="round"/>
+<rect x="24" y="193" width="1152" height="3" rx="1.5" fill="url(#accent)"/>
+</svg>
